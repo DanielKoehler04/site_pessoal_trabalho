@@ -109,7 +109,7 @@ html{
     border-radius: 30rem;
     width: 35rem;
     height: 35rem;
-    background-image: url("./assets/imgs/logos-imgs/WhatsApp\ Image\ 2025-09-28\ at\ 16.53.37.jpeg");
+    background-image: url("../imgs/logos-imgs/WhatsApp\ Image\ 2025-09-28\ at\ 16.53.37.jpeg");
     background-size: cover;
     background-position: center;
 }
@@ -225,12 +225,12 @@ html{
 }
 
 .cdc{
-    background-image: url("./assets/imgs/logos-imgs/colegio-duque-de-caxias.jpg");
+    background-image: url("../imgs/logos-imgs/colegio-duque-de-caxias.jpg");
     
 }
 
 .ifes{
-    background-image: url("assets/imgs/logos-imgs/Ifes_Logo.svg.png");
+    background-image: url("../imgs/logos-imgs/Ifes_Logo.svg.png");
     background-color: white;
 }
 
@@ -243,22 +243,22 @@ html{
 }
 
 .js{
-    background-image: url("./assets/imgs/logos-imgs/javascipt.png");
+    background-image: url("../imgs/logos-imgs/javascipt.png");
 }
 
 .flutter{
-    background-image: url("/assets/imgs/logos-imgs/Flutter_logo.svg.png");
+    background-image: url("../imgs/logos-imgs/Flutter_logo.svg.png");
 }
 
 .django{
-    background-image: url("/assets/imgs/logos-imgs/django-icon.svg");
+    background-image: url("../imgs/logos-imgs/django-icon.svg");
 }
 
 .html{
-    background-image: url("/assets/imgs/logos-imgs/html.png");
+    background-image: url("../imgs/logos-imgs/html.png");
 }
 
 .css{
-    background-image: url("/assets/imgs/logos-imgs/CSS3_logo_and_wordmark.svg.png");
+    background-image: url("../imgs/logos-imgs/CSS3_logo_and_wordmark.svg.png");
     
 }
