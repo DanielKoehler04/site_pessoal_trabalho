@@ -67,7 +67,7 @@ html{
 .inicio{
     background-size: cover;
     background-color: black;
-    background-image: url("/assets/imgs/bg-imgs/Wave.svg");
+    background-image: url("../imgs/bg-imgs/Wave.svg");
 }
 
 .main-content{
@@ -117,7 +117,7 @@ html{
 .trajetoria{
     background-size: cover;
     background-color: black;
-    background-image: url("/assets/imgs/bg-imgs/Wave\ \(1\).svg");
+    background-image: url("../imgs/bg-imgs/Wave\ \(1\).svg");
     text-align: center;
     padding-top: 5rem;
 }
@@ -206,7 +206,7 @@ html{
 .hobby{
     background-size: cover;
     background-color: black;
-    background-image: url("/assets/imgs/bg-imgs/Wave.svg");
+    background-image: url("../imgs/bg-imgs/Wave.svg");
     text-align: center;
     padding: 10rem 0;
 
