@@ -225,25 +225,25 @@ html{
 }
 
 .cdc{
-    background-image: url("/assets/imgs/logos-imgs/colegio-duque-de-caxias.jpg");
+    background-image: url("./assets/imgs/logos-imgs/colegio-duque-de-caxias.jpg");
     
 }
 
 .ifes{
-    background-image: url("/assets/imgs/logos-imgs/Ifes_Logo.svg.png");
+    background-image: url("assets/imgs/logos-imgs/Ifes_Logo.svg.png");
     background-color: white;
 }
 
 .uvv{
-    background-image: url("/assets/imgs/logos-imgs/images.png");
+    background-image: url("./assets/imgs/logos-imgs/images.png");
 }
 
 .python{
-    background-image: url("/assets/imgs/logos-imgs/pyth.png");
+    background-image: url("assets/imgs/logos-imgs/pyth.png");
 }
 
 .js{
-    background-image: url("/assets/imgs/logos-imgs/javascipt.png");
+    background-image: url("./assets/imgs/logos-imgs/javascipt.png");
 }
 
 .flutter{
