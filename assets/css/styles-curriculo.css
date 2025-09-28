@@ -1,0 +1,77 @@
+.curriculo{
+    background-size: cover;
+    background-color: black;
+    background-image: url("/assets/imgs/bg-imgs/Wave.svg");
+    
+}
+
+.curric{
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 4rem;
+}
+
+
+.curric h2{
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.curric-top a{
+    font-size: 1.8rem;
+    background-color: #0c0c0c;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    transition: all ease-in-out 0.2s;
+}
+
+.curric-top a:hover{
+    background-color: rgb(54, 53, 53);
+}
+
+td a {
+    background-color: #0c0c0c;
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: all ease-in-out 0.2s;
+}
+
+td a:hover{
+    background-color: rgb(54, 53, 53);
+}
+table{
+    width: 100%;
+    
+    border-collapse: collapse;
+     
+
+    align-self: center;
+    
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-bottom: 3rem;
+    font-size: 1.5em;
+    text-align: center;
+}
+thead{
+     background-color: #0c0c0c;
+    color: white;
+}
+
+td, th{
+    padding: 3rem;
+    text-align: center;
+    max-width: 45rem;
+}
+
+th{
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+tbody{
+    background-color: rgb(24, 23, 23);
+}

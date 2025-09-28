@@ -1,0 +1,98 @@
+.contato{
+    background-size: cover;
+    background-color: black;
+    background-image: url("/assets/imgs/bg-imgs/Wave.svg");
+    
+}
+
+.contat{
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 4rem;
+}
+
+.contat h2{
+    font-size: 4rem;
+}
+
+.formulario {
+    border: solid 1px #222;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    width: 50%;
+    box-shadow: 0px 3px 10px #222;
+}
+
+
+.formulario button {
+    width: 50%;
+    margin-top: 2rem;
+    text-align: center;
+    align-self: center;
+    padding: 1rem;
+    border-radius: 3rem;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 2rem;
+    transition: all ease-in-out 0.2s;
+}
+
+.formulario button:hover{
+    background-color: #222;
+    cursor: pointer;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.form-group label{
+    text-align: start;
+    font-size: 1.6rem;
+}
+
+.form-group input{
+    border: solid 1px #222;
+    outline: none;
+    padding: 0.5rem 1rem;
+    background: transparent;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.form-group textarea{
+    border: solid 1px #222;
+    outline: none;
+    padding: 0.5rem 1rem;
+    background: transparent;
+    color: white;
+    border-radius: 0.5rem;
+    resize: none;
+}
+
+.form-group select{
+    border: solid 1px #222;
+    outline: none;
+    padding: 0.5rem 1rem;
+    background: transparent;
+    color: gray;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+

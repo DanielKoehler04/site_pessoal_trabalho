@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contato</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/styles.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/styles-contato.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="shortcut icon" href="/assets/imgs/logos-imgs/dev.png" type="image/x-icon">
+    <script src='main.js'></script>
+</head>
+<body>
+     <nav>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Daniel Koehler</h1>
+            </div>
+            <div class="menu-itens">
+                <ul>
+                    <li><a href="/index.html">Início</a></li>
+                    <li><a href="/pages/servicos.html">Serviços</a></li>
+                    <li><a href="/pages/curriculo.html">Curriculo</a></li>
+                    <li><a href="/pages/contato.html">Contato</a></li>
+                    <li><a href="https://github.com/DanielKoehler04" target="_blank"><img src="/assets/imgs/logos-imgs/github-icon-2.svg" alt="" width="30"></a></li>
+
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <section class="section contato">
+        <div class="main-content contat">
+            <h2 data-aos="fade-left">Entre em Contato</h2>
+            <div class="formulario" data-aos="fade-up">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1" class="form-label">Nome:</label>
+                        <input type="text" >
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" class="form-label">Email:</label>
+                        <input type="email">
+
+                    </div>
+                     <div class="form-group">
+                        <label for="exampleInputEmail1" class="form-label">Número:</label>
+                        <input type="tel">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1" class="form-label">Mensagem</label>
+                        <textarea name="" id="" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-select" >
+                            <option selected>Escolha o serviço desejado...</option>
+                            <option value="1">Landing Page</option>
+                            <option value="2">Site Institucional</option>
+                            <option value="3">E-Commerce</option>
+                            <option value="4">Sistema</option>
+                            <option value="5">Outro...</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-select" >
+                            <option selected>Pessoa Física ou Jurídica...</option>
+                            <option value="1">Pessoa Física</option>
+                            <option value="2">Pessoa Jurídica</option>
+                            
+                        </select>
+                    </div>
+                    <div class="form-group check">
+                        <label for="">Deseja que eu entre em contato via Whatsapp ?</label>
+                        <input type="checkbox">
+                        
+                    
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+                
+            
+                
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+        duration: 1200, // duração em ms
+        once: true      // anima apenas na primeira vez
+        });
+    </script>
+
+    
+</body>
+</html>

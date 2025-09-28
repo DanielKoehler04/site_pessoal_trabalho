@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.navbar{
+    background: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2rem;
+    border-bottom:solid 0.1rem rgb(19, 18, 18);
+    z-index: 99;
+    position: fixed;
+}
+
+.logo{
+    font-size: 1.5rem;
+}
+
+.menu-itens{
+   display: flex;
+}
+
+.menu-itens ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 3rem;
+    align-items: center;
+    
+}
+
+.menu-itens ul li{
+    text-decoration: none;
+
+}
+
+.menu-itens ul li a{
+    padding: 0.5rem;
+    border-bottom: solid 0.2rem black;
+    font-size: 2rem;
+    transition: ease-in-out all 0.2s;
+}
+
+
+.menu-itens ul li a:hover{
+   border-bottom: solid  0.2rem rgb(136, 131, 131) ;
+   color: rgb(136, 131, 131);
+}
+
+
+.inicio{
+    background-size: cover;
+    background-color: black;
+    background-image: url("/assets/imgs/bg-imgs/Wave.svg");
+}
+
+.main-content{
+    margin: auto;
+    max-width:80%;
+    display: flex;
+    color: white;
+    padding: 0  2rem;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.home{
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+
+.col1-inicio h1{
+    font-size: 6rem;
+    margin-bottom: 3rem;
+}
+
+.col1-inicio h2{
+    margin-bottom: 5rem;
+    font-size: 3rem;
+    
+
+}
+
+.col1-inicio p{
+    font-size: 2rem;
+}
+
+
+.img-profile{
+    background-color: transparent;
+    border-radius: 30rem;
+    width: 35rem;
+    height: 35rem;
+    background-image: url("/assets/imgs/logos-imgs/WhatsApp\ Image\ 2025-09-28\ at\ 16.53.37.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.trajetoria{
+    background-size: cover;
+    background-color: black;
+    background-image: url("/assets/imgs/bg-imgs/Wave\ \(1\).svg");
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.traj{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    gap: 8rem;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.img-acad{
+    width: 9rem;
+    height: 9rem;
+    
+    border-radius: 20rem;
+    margin: 2rem auto;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.acad p{
+    font-size: 1.8rem;
+}
+
+.traj h2{
+    font-size: 4rem;
+    text-align: start;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    
+}
+
+.title-2{
+    border-left: solid white 0.4rem;
+    
+}
+
+
+.col-2 h2{
+    font-size: 4rem;
+    text-align: end;
+    margin-right: 2rem;
+}
+
+.title-3{
+    border-right: solid white 0.4rem;
+    
+}
+
+.row{
+    display: grid;
+     grid-template-columns: repeat(3, 2fr);
+    counter-reset: grid-counter;
+    gap: 3rem ;
+    margin-bottom: 3rem;
+}
+
+.row-acad{
+    display: grid;
+     grid-template-columns: repeat(3, 1fr);
+    counter-reset: grid-counter;
+    gap: 5rem ;
+    margin-bottom: 3rem;
+    border: solid rgb(37, 37, 37) 1px;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+
+.hab{
+    border: solid rgb(37, 37, 37) 1px;
+    border-radius: 1rem;
+    padding: 2rem 2rem;
+    font-size: 1.6rem;
+}
+
+.hobby{
+    background-size: cover;
+    background-color: black;
+    background-image: url("/assets/imgs/bg-imgs/Wave.svg");
+    text-align: center;
+    padding: 10rem 0;
+
+}
+
+.hobby h2{
+     font-size: 4rem;
+    text-align: start;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+}
+
+.hobb p{
+    text-align: start;
+    font-size: 2rem;
+}
+
+.cdc{
+    background-image: url("/assets/imgs/logos-imgs/colegio-duque-de-caxias.jpg");
+    
+}
+
+.ifes{
+    background-image: url("/assets/imgs/logos-imgs/Ifes_Logo.svg.png");
+    background-color: white;
+}
+
+.uvv{
+    background-image: url("/assets/imgs/logos-imgs/images.png");
+}
+
+.python{
+    background-image: url("/assets/imgs/logos-imgs/pyth.png");
+}
+
+.js{
+    background-image: url("/assets/imgs/logos-imgs/javascipt.png");
+}
+
+.flutter{
+    background-image: url("/assets/imgs/logos-imgs/Flutter_logo.svg.png");
+}
+
+.django{
+    background-image: url("/assets/imgs/logos-imgs/django-icon.svg");
+}
+
+.html{
+    background-image: url("/assets/imgs/logos-imgs/html.png");
+}
+
+.css{
+    background-image: url("/assets/imgs/logos-imgs/CSS3_logo_and_wordmark.svg.png");
+    
+}
