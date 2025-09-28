@@ -235,11 +235,11 @@ html{
 }
 
 .uvv{
-    background-image: url("./assets/imgs/logos-imgs/images.png");
+    background-image: url("../imgs/logos-imgs/images.png");
 }
 
 .python{
-    background-image: url("assets/imgs/logos-imgs/pyth.png");
+    background-image: url("../imgs/logos-imgs/pyth.png");
 }
 
 .js{
