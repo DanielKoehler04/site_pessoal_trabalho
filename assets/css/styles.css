@@ -109,7 +109,7 @@ html{
     border-radius: 30rem;
     width: 35rem;
     height: 35rem;
-    background-image: url("/assets/imgs/logos-imgs/WhatsApp\ Image\ 2025-09-28\ at\ 16.53.37.jpeg");
+    background-image: url("./assets/imgs/logos-imgs/WhatsApp\ Image\ 2025-09-28\ at\ 16.53.37.jpeg");
     background-size: cover;
     background-position: center;
 }
